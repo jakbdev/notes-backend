@@ -7,6 +7,7 @@ app.use(express.static('dist'))
 const cors = require('cors')
 app.use(cors())
 
+
 let notes = [
     {
       id: 1,
